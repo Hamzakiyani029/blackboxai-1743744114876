@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uber Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    .hero-bg {
+      background-image: url('https://images.pexels.com/photos/3616393/pexels-photo-3616393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="font-sans antialiased">
+  <!-- Navigation -->
+  <nav class="bg-black text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="text-2xl font-bold">UberClone</div>
+      <div class="hidden md:flex space-x-6">
+        <a href="#" class="hover:text-gray-300">Drive</a>
+        <a href="#" class="hover:text-gray-300">Ride</a>
+        <a href="#" class="hover:text-gray-300">Business</a>
+        <a href="login.html" class="bg-white text-black px-4 py-2 rounded-full hover:bg-gray-200">Sign In</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-bg h-screen flex items-center">
+    <div class="container mx-auto px-4 text-white">
+      <h1 class="text-5xl font-bold mb-6">Get in the driver's seat and get paid</h1>
+      <p class="text-xl mb-8 max-w-lg">Drive on the platform with the largest network of active riders.</p>
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href="rider-dashboard.html" class="bg-white text-black px-8 py-4 rounded-full text-center font-medium hover:bg-gray-100 transition">Request a ride</a>
+        <a href="driver-dashboard.html" class="bg-black text-white px-8 py-4 rounded-full text-center font-medium hover:bg-opacity-80 transition">Sign up to drive</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">Why choose UberClone?</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center p-6">
+          <div class="text-4xl mb-4">🚗</div>
+          <h3 class="text-xl font-semibold mb-2">Reliable rides</h3>
+          <p class="text-gray-600">Request a ride 24/7 in hundreds of cities worldwide</p>
+        </div>
+        <div class="text-center p-6">
+          <div class="text-4xl mb-4">⏱️</div>
+          <h3 class="text-xl font-semibold mb-2">Fast pickup</h3>
+          <p class="text-gray-600">Your driver arrives in minutes, 24/7</p>
+        </div>
+        <div class="text-center p-6">
+          <div class="text-4xl mb-4">💳</div>
+          <h3 class="text-xl font-semibold mb-2">Easy payments</h3>
+          <p class="text-gray-600">Cashless payment for seamless experience</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white py-8">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between">
+        <div class="mb-6 md:mb-0">
+          <h3 class="text-xl font-bold mb-4">UberClone</h3>
+          <p>© 2023 UberClone Technologies Inc.</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+          <div>
+            <h4 class="font-semibold mb-3">Company</h4>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:underline">About us</a></li>
+              <li><a href="#" class="hover:underline">Careers</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-3">Products</h4>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:underline">Ride</a></li>
+              <li><a href="#" class="hover:underline">Drive</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-3">Support</h4>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:underline">Help Center</a></li>
+              <li><a href="#" class="hover:underline">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
